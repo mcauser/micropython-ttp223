@@ -14,7 +14,7 @@ It's sensitive enough to detect my finger around 3mm away from the touch pad.
 
 **Basic usage**
 
-```
+```python
 from machine import Pin
 import time
 
@@ -27,7 +27,7 @@ while True:
 
 **Using interrupts**
 
-```
+```python
 from machine import Pin
 
 d3 = Pin('D3', Pin.IN, Pin.PULL_DOWN)
