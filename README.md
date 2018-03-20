@@ -40,6 +40,18 @@ d3.irq(touch, Pin.IRQ_FALLING)
 d4.irq(touch, Pin.IRQ_FALLING)
 ```
 
+## Trigger mode
+
+There are 2 pads A and B which can be bridged with a dab of solder to change the trigger mode.
+
+Pad A | Pad B | Description
+----- | ----- | --------------------------------------
+Open  | Open  | Momentary, High TTL level output (default)
+Short | Open  | Momentary, Low TTL level output
+Open  | Short | Latching, High TTL level output
+Short | Short | Latching, Low TTL level output
+
+
 ## Parts
 
 * [VCC-GND STM32F407VET6 mini](https://www.aliexpress.com/item/STM32F407VET6-Mini-version-of-the-core-board-STM32-minimum-system-version/32709285751.html) $15.47 AUD
