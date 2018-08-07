@@ -70,3 +70,7 @@ GND           | GND
 
 * [micropython.org](http://micropython.org)
 * [TTP223 datasheet](https://infusionsystems.com/support/TTP223.pdf)
+
+## License
+
+Licensed under the [MIT License](http://opensource.org/licenses/MIT).
